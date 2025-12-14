@@ -162,10 +162,10 @@ AI was used strictly as a productivity and debugging assistant.
 ![Add Sweet](screenshots/Screenshot%202025-12-14%20165850.png)
 
 ### 🛒 Purchase Sweet
-![Purchase Sweet](screenshots/Screenshot%202025-12-14%20165816.png)
+![Purchase Sweet](screenshots/Screenshot%202025-12-14%20170016.png)
 
 ### 📦 Restock Sweet
-![Restock Sweet](screenshots/Screenshot%202025-12-14%20165829.png)
+![Restock Sweet](screenshots/Screenshot%202025-12-14%20170029.png)
 
 
 ## Author
