@@ -144,6 +144,29 @@ AI was used strictly as a productivity and debugging assistant.
 
 ---
 
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](C:\Users\91876\Pictures\Screenshots\Screenshot 2025-12-14 165811.png)
+
+### 🔐 Login Page
+![Login Page](screenshots/login.png)
+
+### 🧑‍💼 Admin Dashboard
+![Admin Dashboard](screenshots/admin-dashboard.png)
+
+### ➕ Add Sweet (Admin)
+![Add Sweet](screenshots/add-sweet.png)
+
+### 🛒 Purchase Sweet
+![Purchase Sweet](screenshots/purchase.png)
+
+### 📦 Restock Sweet
+![Restock Sweet](screenshots/restock.png)
+
+
 ## Author
 
 Vishwajeet Shinde  
