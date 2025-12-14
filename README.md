@@ -149,7 +149,8 @@ AI was used strictly as a productivity and debugging assistant.
 ## 📸 Screenshots
 
 ### 🏠 Home Page
-![Home Page](screenshots/Screenshot 2025-12-13 174948.png)
+![Home Page](screenshots/Screenshot%202025-12-14%20165811.png)
+)
 
 ### 🔐 Login Page
 ![Login Page](screenshots/login.png)
