@@ -153,19 +153,19 @@ AI was used strictly as a productivity and debugging assistant.
 )
 
 ### 🔐 Login Page
-![Login Page](screenshots/login.png)
+![Login Page](screenshots/Screenshot%202025-12-14%20165821.png)
 
 ### 🧑‍💼 Admin Dashboard
-![Admin Dashboard](screenshots/admin-dashboard.png)
+![Admin Dashboard](screenshots/Screenshot%202025-12-14%20165838.png)
 
 ### ➕ Add Sweet (Admin)
-![Add Sweet](screenshots/add-sweet.png)
+![Add Sweet](screenshots/Screenshot%202025-12-14%20165850.png)
 
 ### 🛒 Purchase Sweet
-![Purchase Sweet](screenshots/purchase.png)
+![Purchase Sweet](screenshots/Screenshot%202025-12-14%20165816.png)
 
 ### 📦 Restock Sweet
-![Restock Sweet](screenshots/restock.png)
+![Restock Sweet](screenshots/Screenshot%202025-12-14%20165829.png)
 
 
 ## Author
