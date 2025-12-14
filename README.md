@@ -1,138 +1,179 @@
-# 🍬 Sweet Shop Management System
+🍬 Sweet Shop Management System
+Overview
 
-## 📌 Overview
+Sweet Shop Management System is a full-stack web application that manages sweets inventory with role-based access. Users can view and purchase sweets, while admin users can add, restock, update, and delete sweets.
 
-Sweet Shop Management System is a full-stack web application that allows users to manage sweets inventory, purchase sweets, and perform admin-level operations such as adding, restocking, and deleting sweets.
+The backend is built using Node.js with Express and MongoDB.
+The frontend is built using ReactJS as a single-page application (SPA).
+Authentication is implemented using JWT tokens.
 
-The project is built using **Node.js (Express)** for the backend and **ReactJS** for the frontend.  
-Authentication is implemented using **JWT-based token authentication** with **role-based access control (Admin/User)**.
+This project is developed for the Incubyte Sweet Shop Management Kata.
 
-This project is developed as part of the **Incubyte Sweet Shop Management Kata**.
+Key Features
+Authentication
 
----
+User registration and login
 
-## ✨ Key Features
+JWT-based authentication
 
-### 👤 Authentication
-- User Registration & Login
-- JWT-based authentication
-- Role-based access control (Admin / User)
+Role-based access control (Admin / User)
 
-### 🍭 Sweet Management
-- Add new sweets (Admin only)
-- View all available sweets
-- Search sweets by **name**, **category**, or **price range**
-- Update sweet details
-- Delete sweets (Admin only)
+Sweet Management
 
-### 📦 Inventory Management
-- Purchase sweets (stock decreases)
-- Restock sweets (Admin only)
-- Purchase disabled when stock is zero
+View all available sweets
 
-### 🎨 Frontend
-- Responsive UI
-- Admin and User views
-- Search bar, filters, and sorting
-- Clean layout with styled buttons and spacing
+Add new sweets (Admin only)
 
----
+Update sweet details
 
+Delete sweets (Admin only)
 
+Search sweets by name, category, or price range
 
----
+Inventory Management
 
-## 🔐 API Endpoints
+Purchase sweets (quantity decreases)
 
-### Auth
-| Method | Endpoint | Description |
-|------|---------|------------|
-| POST | `/api/auth/register` | Register a new user |
-| POST | `/api/auth/login` | Login user |
+Restock sweets (Admin only)
 
-### Sweets (Protected)
-| Method | Endpoint | Description |
-|------|---------|------------|
-| POST | `/api/sweets` | Add a new sweet (Admin) |
-| GET | `/api/sweets` | Get all sweets |
-| GET | `/api/sweets/search` | Search sweets |
-| PUT | `/api/sweets/:id` | Update sweet |
-| DELETE | `/api/sweets/:id` | Delete sweet (Admin) |
+Purchase button disabled when stock is zero
 
-### Inventory (Protected)
-| Method | Endpoint | Description |
-|------|---------|------------|
-| POST | `/api/sweets/:id/purchase` | Purchase sweet |
-| POST | `/api/sweets/:id/restock` | Restock sweet (Admin) |
+Frontend UI
 
----
+Responsive and clean UI
 
-## 🛠️ Technologies Used
+Admin and User dashboards
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB
-- JWT Authentication
-- bcrypt
-- RESTful APIs
+Navbar with search and add sweet options
 
-### Frontend
-- ReactJS
-- Axios
-- React Router
-- Context API
-- CSS (Custom Styling)
+Styled buttons with proper spacing
 
----
+API Endpoints
 
-## ▶️ How to Run the Project
+Auth
+POST /api/auth/register
+POST /api/auth/login
 
-### 🔧 Backend Setup
-```bash
+Sweets (Protected)
+POST /api/sweets
+GET /api/sweets
+GET /api/sweets/search
+PUT /api/sweets/:id
+DELETE /api/sweets/:id
+
+Inventory (Protected)
+POST /api/sweets/:id/purchase
+POST /api/sweets/:id/restock
+
+Project Structure
+
+sweet-shop-management-system
+backend
+
+controllers
+
+models
+
+routes
+
+middleware
+
+config
+
+server.js
+
+package.json
+
+frontend
+
+components
+
+pages
+
+context
+
+api
+
+styles
+
+main.jsx
+
+package.json
+
+README.md
+
+Technologies Used
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB
+
+JWT Authentication
+
+bcrypt
+
+Frontend
+
+ReactJS
+
+Axios
+
+React Router
+
+Context API
+
+CSS
+
+How to Run
+
+Backend
+
 cd backend
 npm install
 npm run dev
 
-Backend runs on:
+Backend URL
 http://localhost:5000
 
+Frontend
 
-Frontend Setup
 cd frontend
 npm install
 npm run dev
 
-
-Frontend runs on:
+Frontend URL
 http://localhost:5173
 
-
-🧪 Testing
+Testing
 
 APIs tested using Postman
-Edge cases like stock validation handled
-Proper error handling using HTTP status codes
 
-🤖 My AI Usage
-I used ChatGPT as an AI assistant during development to:
-Design REST API structure
-Debug authentication & authorization issues
-Fix frontend-backend integration errors
-Refactor code for readability and maintainability
-All core logic, decisions, and implementation were written and verified by me.
-AI was used strictly as a development assistant.
+Proper error handling with HTTP status codes
 
+Stock validation implemented for purchase and restock
 
-👨‍💻 Author
+My AI Usage
+
+I used ChatGPT as an AI assistant to:
+
+Design REST API endpoints
+
+Debug frontend and backend integration issues
+
+Resolve authentication and authorization errors
+
+Improve code readability and structure
+
+All development decisions, logic, and final implementation were done by me.
+AI was used strictly as a productivity and debugging assistant.
+
+Author
+
 Vishwajeet Shinde
 GitHub: https://github.com/vishwa7385
 
-
-
-
-
-
-
-## 🗂️ Project Structure
-
+This project is built as part of the Incubyte Sweet Shop Management Kata.
