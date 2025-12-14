@@ -1,0 +1,154 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+nav {
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+nav button {
+  background-color: #fff;
+  color: #ff6f61;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+nav button:hover {
+  background-color: #ffe6e1;
+}
+
+form {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 8px 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  width: 100%;
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #ff3b2e;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #ff6f61;
+}
+
+/* Sweets grid */
+.sweets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Sweet card */
+.sweet-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sweet-card h3 {
+  color: #ff6f61;
+  margin-bottom: 10px;
+}
+
+.sweet-card p {
+  margin: 5px 0;
+}
+
+.sweet-card button {
+  margin: 5px 5px 0 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.sweet-card button:hover {
+  opacity: 0.9;
+}
+
+.sweet-card button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Admin buttons */
+.sweet-card button:nth-child(3),
+.sweet-card button:nth-child(4) {
+  background-color: #ff9a5c;
+  color: #fff;
+}
+
+.sweet-card button:nth-child(3):hover,
+.sweet-card button:nth-child(4):hover {
+  opacity: 0.8;
+}
+
+/* Purchase button */
+.sweet-card button:nth-child(1) {
+  background-color: #ff6f61;
+  color: #fff;
+}
+
+.sweet-card button:nth-child(1):hover {
+  opacity: 0.8;
+}
